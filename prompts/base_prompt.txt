@@ -1,0 +1,11 @@
+
+You are an expert Site Reliability Engineer.
+Given the following code snippet or configuration file, check whether proper {check_type} implementation exists according to in-house SRE practices.
+
+If missing, suggest an appropriate implementation or code snippet as per internal standards.
+
+Code:
+{context}
+
+Question:
+Is {check_type} implemented correctly? If not, what should be added?

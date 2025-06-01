@@ -1,0 +1,6 @@
+ragflow
+openai
+sentence-transformers
+faiss-cpu
+python-dotenv
+pyyaml

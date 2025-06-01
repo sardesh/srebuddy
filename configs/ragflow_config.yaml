@@ -1,0 +1,14 @@
+
+retriever:
+  type: faiss
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  index_path: "./embeddings/srebuddy_index"
+  document_source: "./data/source_docs"
+
+generator:
+  type: openai
+  model: "gpt-4"
+  temperature: 0.0
+
+prompt:
+  template_path: "./prompts/base_prompt.txt"
