@@ -11,21 +11,38 @@ A Retrieval-Augmented Generation (RAG) powered agent with access to FISAS DB dat
 
 ## 🚀 Run Instructions
 
-1️⃣ Install requirements:
+1️⃣ Create and activate a Python virtual environment (recommended):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+2️⃣ Install requirements:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2️⃣ Prepare vector index (RAGFlow utility)
+3️⃣ Prepare vector index (RAGFlow utility):
 
-3️⃣ Run check:
+```bash
+python srebuddy/index_repo.py <github_repo_url>
+```
+
+4️⃣ Run test:
+
+```bash
+python srebuddy/test_rag_query.py
+```
+
+5️⃣ (Optional) Run the main check:
 
 ```bash
 python srebuddy/srebuddy/run_ragflow.py
 ```
 
-4️⃣ Review results and suggested implementation snippets.
+6️⃣ Review results and suggested implementation snippets.
 
 ## 📊 Extending
 
